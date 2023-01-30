@@ -1,0 +1,5 @@
+#!/bin/bash
+
+termux-wake-lock
+apt update && apt upgrade -y
+termux-wake-unlock
